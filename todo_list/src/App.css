@@ -5,7 +5,8 @@ h1 {
   }
 
   body {
-    background: grey
+    background: white;
+    color: purple;
   }
   #todo-list {
     width: 500px;
@@ -33,7 +34,7 @@ h1 {
     
   button {
     font-size: 16px;
-    background-color: rgb(62, 138, 151);
+    background-color: rgb(0, 0, 0);
     color: #fff;
     border-radius: 8px;
     border: none;
@@ -41,10 +42,10 @@ h1 {
     cursor: pointer;
   }
   button:hover {
-    background-color: rgb(173, 47, 28);
+    background-color: purple
   }
   button:active {
-    background-color: rgb(130,35,21);
+    background-color: purple
   }
   button:focus {
     outline: 0;
